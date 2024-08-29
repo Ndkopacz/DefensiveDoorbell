@@ -27,8 +27,13 @@ Create a doorbell camera with the ability to determine threats and expell a dete
   - [ ] Call activation script
   - [ ] Log in Credentials for external connection?
   - [ ] Stream audio to speaker in doorbell?
+  - [ ] Establish track (3/5 hits)
 
 - [ ] NN Detector
+  - [ ] Basic Red hat detector
+  - [ ] Facial recognition Disable
+  - [ ] Cop Disable
+  - [ ] Send detection to webpage
 
 - [ ] Peripheral Controls
   - [ ] Servo Controller (activation script)
