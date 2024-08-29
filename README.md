@@ -20,16 +20,16 @@ Create a doorbell camera with the ability to determine threats and expell a dete
 
 ### Software
 - [ ] Webpage
-- [ ]   Stream video from pi
-- [ ]   Show status of pi (Enabled or Disabled)
-- [ ]   Change status of pi
-- [ ]   Show log of detections (What was detected, when)
-- [ ]   Call activation script
-- [ ]   Log in Credentials for external connection?
+  - [ ] Stream video from pi
+  - [ ] Show status of pi (Enabled or Disabled)
+  - [ ] Change status of pi
+  - [ ] Show log of detections (What was detected, when)
+  - [ ] Call activation script
+  - [ ] Log in Credentials for external connection?
+  - [ ] Stream audio to speaker in doorbell?
 
 - [ ] NN Detector
 
-- [ ] Servo Controller (activation script)
-
-- [ ] Stream audio to speaker in doorbell?
-- [ ] Play audio on speaker
+- [ ] Peripheral Controls
+  - [ ] Servo Controller (activation script)
+  - [ ] Play audio (alarm) on speaker
