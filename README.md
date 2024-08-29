@@ -4,6 +4,13 @@
 
 Create a doorbell camera with the ability to determine threats and expell a deterent.
 
+## Requirements
+
+ALL CODE MUST BE DOCKERIZED: The only thing that should run by itself is "on startup, run the container"
+- Website in its own docker container (each service can be its own container as well)
+- NN in its own docker container
+  
+
 ## Tasks
 
 ### Hardware
