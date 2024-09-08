@@ -1,0 +1,4 @@
+# ignore stl/ folder but not the latest version and the readme
+stl/*
+!stl/V3/
+!stl/README.md
