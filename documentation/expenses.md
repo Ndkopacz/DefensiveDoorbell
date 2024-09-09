@@ -16,9 +16,10 @@
 | Standoff kit | $13.00 |
 | PLA | $20.00 |
 | FOX teargas grenade | 3 x $31 |
-| M2.5 bolts kit | $11
+| M2.5 bolts kit | $11 |
+| 90 degree USB C | $11 |
 
-Total: $293
+Total: $304
 
 WARNING - probably going to need a gpu accelerator (another $70). Will have to experiment will model sizes before I know for sure
 - Want to run the model at 5 Hz (every second the model decide if you should have spicy eyes)
