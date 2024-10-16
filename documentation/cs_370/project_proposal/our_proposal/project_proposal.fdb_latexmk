@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1727228863.07621 "c:/Users/ndkop/OneDrive/Engineering/CS/ADAM/documentation/cs_370/project_proposal/our_proposal/project_proposal.tex" "project_proposal.pdf" "project_proposal" 1727228863.53235 0
-  "C:/Users/ndkop/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1727228239 82507 a9eef8696c92627b87e9975edea03b2a ""
+["pdflatex"] 1727390800.53784 "c:/Users/ndkop/OneDrive/Engineering/CS/ADAM/documentation/cs_370/project_proposal/our_proposal/project_proposal.tex" "project_proposal.pdf" "project_proposal" 1727390800.99081 0
+  "C:/Users/ndkop/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1727389170 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/ndkop/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1724892080 24265333 f01be8da1d150edcb32352d4d2404118 ""
   "C:/Users/ndkop/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Users/ndkop/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmb7t.tfm" 1136797454 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -47,9 +47,9 @@
   "C:/Users/ndkop/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1716480499 29785 9f93ab201fe5dd053afcc6c1bcf7d266 ""
   "C:/Users/ndkop/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/ot1ptm.fd" 1585253778 1007 15056f4a61917ceed3a44e4ac11fcc52 ""
   "C:/Users/ndkop/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/ndkop/OneDrive/Engineering/CS/ADAM/documentation/cs_370/project_proposal/our_proposal/project_proposal.tex" 1727228862 1416 6c54a069c6147aed735979a5873efbba ""
-  "project_proposal.aux" 1727228863 338 5653d134940f458ed05683c7f54c5986 "pdflatex"
-  "project_proposal.tex" 1727228862 1416 6c54a069c6147aed735979a5873efbba ""
+  "c:/Users/ndkop/OneDrive/Engineering/CS/ADAM/documentation/cs_370/project_proposal/our_proposal/project_proposal.tex" 1727390799 1377 a2726b748f0b32750b210e716b651181 ""
+  "project_proposal.aux" 1727390800 338 5653d134940f458ed05683c7f54c5986 "pdflatex"
+  "project_proposal.tex" 1727390799 1377 a2726b748f0b32750b210e716b651181 ""
   (generated)
   "project_proposal.aux"
   "project_proposal.log"
