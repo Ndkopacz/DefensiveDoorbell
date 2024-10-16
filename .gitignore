@@ -2,3 +2,10 @@
 stl/*
 !stl/V3/
 !stl/README.md
+
+# 580 proposal tex build files
+documentation/cs_580/Project_proposal/*
+!documentation/cs_580/Project_proposal/*.tex
+!documentation/cs_580/Project_proposal/*.bib
+!documentation/cs_580/Project_proposal/*.sty
+!documentation/cs_580/Project_proposal/*.pdf
