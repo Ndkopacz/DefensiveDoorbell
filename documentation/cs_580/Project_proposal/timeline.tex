@@ -1,1 +1,69 @@
- \section{Timeline}
+\section{Timeline}
+\subsection*{Week 1 (10/19 - 10/25): Research Techniques for Model Analysis}
+During the first week, we will focus on researching model interpretability and robustness techniques that we want to apply to analyze the machine learning model. 
+\begin{itemize}
+    \item Review literature on techniques such as LIME (Local Interpretable Model-agnostic Explanations) to explain model predictions.
+    \item Explore robustness testing strategies, including noise injection, low-light simulation, and model perturbation testing.
+    \item Identify performance benchmarks and real-time constraints relevant to our application on the Raspberry Pi.
+\end{itemize}
+
+\subsection*{Week 2 (10/26 - 11/1): Create Small Dataset (Red Hat Detection)}
+The second week will involve creating a small dataset tailored for detecting individuals wearing a red hat.
+\begin{itemize}
+    \item Capture diverse images using the Raspberry Pi in real-world environments.
+    \item Ensure the dataset includes variations in lighting, angles, and distances to improve generalization.
+    \item Label data appropriately and split it into training and testing sets.
+\end{itemize}
+
+\subsection*{Week 3 (11/2 - 11/8): Train the Model (Fine-tuning YOLO)}
+In the third week, we will fine-tune the YOLO model with the newly created dataset.
+\begin{itemize}
+    \item Load a pre-trained YOLO model and apply transfer learning techniques.
+    \item Modify the model to classify a single output class (red hat detection).
+    \item Ensure the model is optimized for both accuracy and speed, considering the limitations of the Raspberry Pi.
+\end{itemize}
+
+\subsection*{Week 4 (11/9 - 11/15): Test the Model Using Selected Techniques}
+During this week, the trained model will be tested using the research techniques selected in Week 1.
+\begin{itemize}
+    \item Apply interpretability techniques (e.g., LIME) to analyze the model's decision-making process.
+    \item Perform robustness testing by introducing noisy or perturbed data and measure the model's accuracy.
+    \item Fine-tune hyperparameters based on results from the testing.
+\end{itemize}
+
+\subsection*{Week 5 (11/16 - 11/22): Port the Model to the Raspberry Pi and Test Speed}
+Once the model is tested, we will port it to the Raspberry Pi to evaluate real-world performance.
+\begin{itemize}
+    \item Deploy the model on the Raspberry Pi and assess its inference speed.
+    \item Test the model in real-time to ensure that it meets performance requirements.
+    \item Optimize the model further to balance speed and accuracy.
+\end{itemize}
+
+\subsection*{Week 6 (11/23 - 11/29): Finalize Pipeline for Model Training and Testing}
+This week focuses on finalizing the pipeline for training and testing models.
+\begin{itemize}
+    \item Document the entire training and testing process.
+    \item Ensure reproducibility by packaging the code and defining clear steps for running the pipeline.
+    \item Automate the pipeline for faster iteration on future model versions.
+\end{itemize}
+
+\subsection*{Week 7 (11/30 - 12/6): Create New Dataset with Perturbations}
+In Week 7, we will create a new dataset that introduces various types of perturbations to test the model's robustness.
+\begin{itemize}
+    \item Simulate adverse conditions such as blurred images, low-light environments, and occluded objects.
+    \item Label and prepare the dataset for model retraining.
+\end{itemize}
+
+\subsection*{Week 8 (12/7 - 12/8): Train a New Model and Send It Through the Pipeline}
+During this week, we will train a new model on the perturbed dataset and test it using the previously established pipeline.
+\begin{itemize}
+    \item Fine-tune the model to handle the newly introduced perturbations.
+    \item Run the updated model through the pipeline to evaluate performance, robustness, and interpretability.
+\end{itemize}
+
+\subsection*{Week 8 (12/7 - 12/8): Write and Submit the Paper}
+Finally, we will compile the project findings and results into a formal research paper.
+\begin{itemize}
+    \item Write the final paper, summarizing our methodology, experiments, and results.
+    \item Submit the paper by the deadline (12/8).
+\end{itemize}
