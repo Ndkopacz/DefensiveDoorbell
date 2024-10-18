@@ -1,6 +1,8 @@
 \section{Related Work}
 Machine learning-based object detection is commonly used in surveillance systems.
 Models like YOLO (You Only Look Once) are optimized for real-time performance and are frequently used in applications requiring fast and accurate object detection. 
-Such models, when combined with transfer learning, are well-suited for adapting to new tasks like detecting a red hat in this case. 
+Alternatively, Inception models are known for high accuracy and efficient memory usage with scale, which is useful given hardware constraints in a raspberry pi.
+Such models, when combined with transfer learning, are well-suited for adapting to new tasks like detecting a red hat, for example. 
 While performance is crucial, interpretability and robustness have become increasingly important in real-world AI deployments. 
 Techniques like LIME (Local Interpretable Model-Agnostic Explanations) allow developers to understand how models make decisions, while robustness testing ensures that models are reliable under diverse conditions, such as when data is noisy or incomplete.
+In order to give assurances on the robustness of a system, models are often tested against adversarial datasets, which can be generated to target the case-specific data.
