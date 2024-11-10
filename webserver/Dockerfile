@@ -7,6 +7,9 @@ WORKDIR /app
 # Copy the requirements and application files
 COPY . .
 
+# Install the required system packages
+RUN apt-get update && apt-get install -y libgl1 && rm -rf /var/lib/apt/lists/*
+
 # Install the required Python packages
 RUN pip install --no-cache-dir opencv-python flask
 
