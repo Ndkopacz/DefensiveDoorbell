@@ -5,9 +5,10 @@
 
 
 ## SSH Credentials
-IP address: 192.168.1.92
-Username: ubuntu
-Password: SpicyEye5!
+Host adam
+    HostName 192.168.1.92
+    User adampi
+    Port 9092
 
 
 ## Connecting to the pi cam
