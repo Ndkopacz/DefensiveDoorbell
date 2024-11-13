@@ -9,3 +9,6 @@ documentation/cs_580/Project_proposal/*
 !documentation/cs_580/Project_proposal/*.bib
 !documentation/cs_580/Project_proposal/*.sty
 !documentation/cs_580/Project_proposal/*.pdf
+
+# 580 ML pycache
+ML/ml_starter/__pycache__/
