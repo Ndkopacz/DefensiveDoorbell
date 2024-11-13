@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADAM Doorbell Camera</title>
+</head>
+<body>
+    <h1>Welcome to the ADAM Doorbell Camera Interface</h1>
+    <button onclick="activateDeterrent()">Activate Deterrent</button>
+    <p>Live feed and graph will be added here later.</p>
+
+    <script>
+        function activateDeterrent() {
+            fetch('/activate-deterrent').then(response => {
+                alert('Deterrent activated!');
+            });
+        }
+    </script>
+</body>
+<body>
+    <h1>Real-Time Video Feed</h1>
+    <img src="{{ url_for('video_feed') }}" alt="Video Feed" style="width: 100%; max-width: 640px;">
+</body>
+</html>
