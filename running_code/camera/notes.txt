@@ -1,0 +1,4 @@
+For the full FOV use
+'''libcamera-vid --codec libav -o test.mp4 -t 5000 --mode 1640:1232 --framerate 30'''
+
+THis gives a 640x480 for some fucking reason
