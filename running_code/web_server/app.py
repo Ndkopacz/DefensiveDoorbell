@@ -1,4 +1,5 @@
 from flask import Flask, render_template, Response
+from picamera2 import Picamera2, Preview
 import atexit
 import sys
 import threading
@@ -13,7 +14,8 @@ app = Flask(__name__)
 led_control.setup()
 buzzer_control.setup()
 servo_pwm = servo_control.setup()
-camera_control.setup_camera()
+camera_control.setup_camera_picam()
+camera_control.cam_preview_remote()  # remote preview
 
 # Register cleanup functions to be called on exit
 atexit.register(led_control.cleanup)
@@ -49,19 +51,19 @@ def activate_deterrent():
     # Create threads to run the LED and buzzer functions simultaneously
     led_thread = threading.Thread(target=led_control.hold_led)
     buzzer_thread = threading.Thread(target=buzzer_control.buzz)
-    servo_thread = threading.Thread(target=servo_control.move_servo)
+    # servo_thread = threading.Thread(target=servo_control.move_servo)
 
     # Start the threads
     led_thread.start()
     buzzer_thread.start()
-    servo_thread.start()
+    # servo_thread.start()
 
     '''DETERENT ACTIVATED NOTIFY?'''
 
     # Wait for both threads to finish (will happen after 2 seconds or unknown servo timing)
     led_thread.join()
     buzzer_thread.join()
-    servo_thread.join()
+    # servo_thread.join()
 
     return "Deterrent activated!"
 
