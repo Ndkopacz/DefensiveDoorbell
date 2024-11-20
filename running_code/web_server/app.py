@@ -15,7 +15,6 @@ led_control.setup()
 buzzer_control.setup()
 servo_pwm = servo_control.setup()
 camera_control.setup_camera_picam()
-camera_control.cam_preview_remote()  # remote preview
 
 # Register cleanup functions to be called on exit
 atexit.register(led_control.cleanup)

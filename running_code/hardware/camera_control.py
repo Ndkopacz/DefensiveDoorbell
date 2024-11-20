@@ -10,20 +10,10 @@ picam2 = Picamera2()
 def setup_camera_picam():
     cam_config = picam2.create_preview_configuration()
     picam2.configure(cam_config)
-    picam2.start_preview(Preview.QTGL)
+    picam2.start_preview(Preview.NULL) # use (Preview.QTGL) when have display to see preview
     picam2.start()
     time.sleep(2)
     picam2.capture_file("test.jpg")
-
-# preview with QtPreview, works with X forwarding
-def cam_preview_remote():
-    picam2.start_preview(Preview.QT)
-
-    preview_config = picam2.create_preview_configuration()
-    picam2.configure(preview_config)
-
-    picam2.start()
-    time.sleep(5)
 
 
 #def setup_camera():
