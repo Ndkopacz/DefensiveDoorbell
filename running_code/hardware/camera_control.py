@@ -12,6 +12,7 @@ def setup_camera_picam():
     picam2.configure(cam_config)
     picam2.start_preview(Preview.NULL) # use (Preview.QTGL) when have display to see preview
     picam2.start()
+    print("Camera setup complete.")
     time.sleep(2)
     picam2.capture_file("test.jpg")
 
@@ -31,7 +32,8 @@ def setup_camera_picam():
 
 def cleanup_camera():
     """Release the camera resource."""
-    picam2.release()
+    picam2.stop()
+    picam2.close()
     print("Camera cleanup complete.")
 
 def generate_frames():
