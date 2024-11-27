@@ -12,3 +12,7 @@ documentation/cs_580/Project_proposal/*
 
 # 580 ML pycache
 ML/ml_starter/__pycache__/
+
+# Danger/Threat dataset. GBs of data, please download from the link in the README if needed
+ML/data/danger/*
+!ML/data/danger/README.md
